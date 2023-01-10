@@ -1,0 +1,53 @@
+## Possible GET requests:
+* /matches/{match_id}
+* /playersByRank
+* /players
+    * /{account_id}
+    * /{account_id}/wl
+    * /{account_id}/recentMatches
+    * /{account_id}/matches
+    * /{account_id}/heroes
+    * /{account_id}/peers
+    * /{account_id}/pros
+    * /{account_id}/totals
+    * /{account_id}/counts
+    * /{account_id}/histograms
+    * /{account_id}/wardmap
+    * /{account_id}/wordcloud
+    * /{account_id}/ratings
+    * /{account_id}/rankings
+* /proPlayers
+* /proMatches
+* /publicMatches
+* /parsedMatches
+* /explorer
+* /metadata
+* /distributions
+* /search
+* /rankings
+* /benchmarks
+* /status
+* /health
+* /heroes
+    * /{hero_id}
+        * /matches
+        * /matchups
+        * /durations
+        * /players
+        * /itemPopularity
+* /heroStats
+* /leagues
+    * /{league_id}
+        * /matches
+        * /teams
+* /teams
+    * /{team_id}
+        * /matches
+        * /players
+        * /heroes
+* /replays
+* /records/{field}
+* /scenarios
+    * /itemTimings
+    * /laneRoles
+    * /misc
